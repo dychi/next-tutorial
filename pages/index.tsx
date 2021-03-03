@@ -10,8 +10,8 @@ export const getStaticProps: GetStaticProps = async () => {
   const allPostsData = getSortedPostsData()
   return {
     props: {
-      allPostsData,
-    },
+      allPostsData
+    }
   }
 }
 
